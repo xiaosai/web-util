@@ -162,7 +162,6 @@ const AsciiTable: React.FC = () => {
       title: '十进制',
       dataIndex: 'decimal',
       key: 'decimal',
-      sorter: (a: AsciiItem, b: AsciiItem) => a.decimal - b.decimal,
       render: (text: number) => (
         <Tag color={text < 32 ? 'blue' : text < 127 ? 'green' : 'red'}>
           {text}
