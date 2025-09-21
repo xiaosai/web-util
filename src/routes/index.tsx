@@ -1,10 +1,10 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import MainLayout from '../components/MainLayout';
 import JsonBeautifier from '../pages/JsonBeautifier';
 import TimestampConverter from '../pages/TimestampConverter';
 import AsciiTable from '../pages/AsciiTable';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <MainLayout />,

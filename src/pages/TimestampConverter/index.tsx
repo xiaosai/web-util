@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Input, Button, Typography, Space, Row, Col, message } from 'antd';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 
 const { Title, Text } = Typography;
 
