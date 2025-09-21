@@ -1,14 +1,10 @@
 import React from 'react';
-import { Layout, Menu, theme } from 'antd';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Layout, Menu } from 'antd';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 const { Header, Content, Footer } = Layout;
 
 const MainLayout: React.FC = () => {
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
-
   const navigate = useNavigate();
 
   const menuItems = [
